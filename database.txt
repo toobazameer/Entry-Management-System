@@ -1,0 +1,4 @@
+create database ems;
+use ems;
+drop table user_info;
+create table user_info(id INTEGER UNSIGNED  NOT NULL AUTO_INCREMENT,name VARCHAR(50),ph_no varchar(20),email VARCHAR(50), check_in TIMESTAMP DEFAULT CURRENT_TIMESTAMP, check_out TIMESTAMP) ENGINE=MYISAM ;
